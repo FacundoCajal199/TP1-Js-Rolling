@@ -1,5 +1,15 @@
-function divisiblePor2Por3Por5oPor7(numero){
-    return(numero % 2 ===0)||(numero % 3===0)|| (numero % 5===0)|| (numero % 7===0)
-    
+ numero = prompt("ingrese un numero para saber si es divisible por (2-3-5-7)");
+if (numero % 2 ===0){
+alert("es divisible por 2 ")
+}else if(numero % 3===0){
+    alert("es divisible por 3")
+}else if (numero % 5===0){
+    document.write("es divisible por 5")
+}else if ( numero % 7===0){
+ alert("es divisible por 7")
+} else{
+    alert("no se puede calcular ese valor")
 }
-alert(divisiblePor2Por3Por5oPor7(6));
+    
+
+//decir todos por los que es divisible
